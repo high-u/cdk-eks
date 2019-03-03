@@ -2,7 +2,7 @@
 
 == Warning
 
-* Corresponds to `CDK v0.24.1`.
+* Confirmed `AWS CDK v0.24.1`.
 * Problematic security group.
 * Problematic policy.
 * Subnet is restricted to public.
