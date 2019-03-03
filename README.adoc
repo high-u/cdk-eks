@@ -80,6 +80,11 @@ kubectl proxy
 
 http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/
 
+== Destroy
+
+* `cdk -a ./nodegroup/bin/nodegroup.js destroy`
+* `cdk -a ./cluster/bin/cluster.js destroy`
+
 == Reference commands
 
 * `npm run build`   compile typescript to js
